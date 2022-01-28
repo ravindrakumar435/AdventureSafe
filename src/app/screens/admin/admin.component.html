@@ -1,0 +1,205 @@
+<div class="row">
+  <div style="width: 22%" class="p-0 m-0">
+    <div class="admin_data">
+      <div class="mt-2">
+        <h5>Admin</h5>
+      </div>
+      <br />
+      <div class="admin_txt mb-3">
+        <p class="mt-1 p-2 pl-3 ml-2">Agency Management</p>
+      </div>
+      <div class="mb-3">Assets</div>
+      <div class="mb-3">Devices</div>
+      <div class="mb-3">Groups</div>
+      <div class="mb-3">Alerts</div>
+      <div class="mb-3">Points of Interest</div>
+      <div class="mb-3">Map Data & Fences</div>
+      <div class="mb-3">Assignments</div>
+      <div class="mb-3">Scheduling</div>
+      <div class="mb-3">User Management</div>
+      <div class="mb-4">Pre-Plan Management</div>
+      <br />
+      <br />
+      <br />
+      <div class="alert_msg mt-4">Send Alert</div>
+    </div>
+  </div>
+  <div style="width: 78%" class="p-0 m-0">
+    <div class="p-0 m-0">
+      <div class="header-content">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-11 d-flex">
+                <div class="head-title mt-3">
+                  <p>Sunrise Beach Fire Protection District</p>
+                </div>
+                <div class="icon_img ml-2">
+                  <img src="assets/down.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #edeeef; height: 88vh">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row pt-3">
+            <div class="col-md-6 title_agency">Agency Management</div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4 text-right_edit">
+              <p class="p-0 m-0">
+                <i class="fa fa-edit"></i>
+                <span class="edit_txt">&nbsp;Edit Dashboard</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row mt-3">
+            <div class="col-md-5">
+              <div class="card p-4" style="border-color: #ffff; height: 65vh">
+                <div class="row">
+                  <div class="col-md-6 card_title">Events by Type</div>
+                  <div class="col-md-6 card_title1 mr-3">
+                    &nbsp;Last 30 Days
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="display: block" class="col-md-12">
+                    <canvas
+                      baseChart
+                      [data]="pieChartData"
+                      [chartType]="pieChartType"
+                      [options]="pieChartOptions"
+                      [plugins]="pieChartPlugins"
+                      [legend]="pieChartLegend"
+                      height="200"
+                      width="300"
+                    >
+                    </canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-md-6">
+                  <div
+                    class="card p-3"
+                    style="border-color: #ffff; height: 35vh"
+                  >
+                    <div class="row">
+                      <div class="col-md-6 card_title">Active Assets</div>
+                      <div class="col-md-6 card_title1">Last Hour</div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile1">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile1">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile1">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                      <div class="d-flex mt-2 col-md-3">
+                        <p class="rounded-circle_profile1">
+                          <span class="list_icon">JP</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="card p-3"
+                    style="border-color: #ffff; height: 35vh"
+                  >
+                    <div class="row">
+                      <div class="col-md-6 card_title">Event History</div>
+                      <div class="col-md-6 card_title1">This Shift</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 mt-4">
+                  <div
+                    class="card p-4"
+                    style="border-color: #ffff; height: 27vh"
+                  >
+                    <div class="row">
+                      <div class="col-md-6 card_title">Account Details</div>
+                      <div
+                        class="col-md-6 card_title1"
+                        style="text-align: right"
+                      >
+                        Edit
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-md-6">
+                        <div class="card_title1">Account Type</div>
+                        <div class="card_title">Paid / Subscription</div>
+                        <div class="card_title1 mt-2">Subscription Length</div>
+                        <div class="card_title">
+                          12 months – Expires Dec 29, 2019
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card_title1 mt-2">Tracked Assets</div>
+                        <div class="card_title">27 / 30 Assets</div>
+                        <div class="card_title1 mt-2">Activation Code</div>
+                        <div class="card_title">2588-iaNvqnHdyn</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-12 d-flex text-end mt-3"
+                  style="justify-content: flex-end"
+                >
+                  <div class="card_title mt-2">Export Report&nbsp;&nbsp;</div>
+                  &nbsp; <button class="export_btn">PDF</button>&nbsp;
+                  <button class="export_btn">CSV</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

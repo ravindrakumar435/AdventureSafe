@@ -1,0 +1,158 @@
+@charset "UTF-8";
+.admin_data {
+  background-color: #264f8f;
+  height: 100vh;
+  overflow: hidden;
+  color: #eaeef1;
+  padding: 20px;
+}
+
+.admin_txt {
+  background-color: #25326e;
+  padding: 0.5px;
+}
+
+.alert_msg {
+  background-color: #25326e;
+  border-radius: 25px;
+  text-align: center;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.header-content {
+  background-color: #25326e;
+  height: 12vh;
+}
+
+.head-title {
+  color: #ffff;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.icon_img {
+  margin: 30px 0px 0px 30px;
+  cursor: pointer;
+}
+
+.refresh-img {
+  margin: 30px 0px 0px 30px;
+}
+
+.header-text1 {
+  color: #517caf;
+  font-size: 8px;
+  margin: 30px 0px 0px 2px;
+}
+
+.degree {
+  color: #ffff;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.wheather_txt {
+  color: #517caf;
+  margin-top: 14px;
+  font-size: 12px;
+}
+
+.Text_windy {
+  color: #517caf;
+  margin: -7px 10px;
+  font-size: 12px;
+}
+
+.mt_text {
+  margin-top: -5px;
+}
+
+.Mask {
+  width: 484px;
+  height: 400px;
+  padding: 0 16px 0 0;
+  transform: rotate(-180deg);
+  border-radius: 2px;
+  box-shadow: 0 7px 34px -7px rgba(0, 0, 0, 0.2);
+  background-color: red;
+}
+
+.title_agency {
+  color: #25326e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-right_edit {
+  justify-content: end;
+  color: #7f8891;
+  font-size: 16px;
+  display: flex;
+}
+
+.card_title {
+  font-size: 14px;
+  color: #1a4ea1;
+  font-weight: 500;
+}
+
+.card_title1 {
+  font-size: 14px;
+  color: #caced1;
+  font-weight: 500;
+}
+
+.rounded-circle_profile {
+  border-radius: 50% !important;
+  border: 2px solid #28b46e;
+  background-color: #25326e;
+  padding: 8px;
+  width: 44px;
+  text-align: center;
+  color: #eaeef1;
+}
+
+.rounded-circle_profile .list_icon::after {
+  content: "•";
+  color: #28b46e;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  top: 48px;
+}
+
+.rounded-circle_profile1 {
+  border-radius: 50% !important;
+  border: 2px solid #28b46e;
+  background-color: #25326e;
+  padding: 8px;
+  width: 44px;
+  text-align: center;
+  color: #eaeef1;
+}
+
+.rounded-circle_profile1 .list_icon::after {
+  content: "•";
+  color: #28b46e;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  top: 114px;
+}
+
+.export_btn {
+  border: 1px solid #dde0e2;
+  color: #25326e;
+  font-weight: bold;
+  background-color: #dde0e2;
+  border-radius: 10px;
+  padding: 6px;
+  min-width: 60px;
+  font-size: 12px;
+}

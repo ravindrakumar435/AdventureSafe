@@ -1,0 +1,90 @@
+<div class="text-center">
+  <div class="logo-img">
+    <img
+      src="assets/icon-inv.png"
+      alt=""
+      class="cursor-pointer"
+      height="40"
+      width="40"
+    />
+  </div>
+
+  <div class="side_nav_items">
+    <div class="assets" routerLinkActive="active">
+      <a [routerLink]="['/main/assets']">
+        <img
+          src="assets/assets.png"
+          height="40"
+          width="40"
+          class="cursor-pointer mt-2"
+          alt=""
+        />
+        <p class="sidebar_txt">Assets</p>
+      </a>
+    </div>
+    <div class="events mt-2" routerLinkActive="active">
+      <a [routerLink]="['/main/events']">
+        <img
+          src="assets/events.png"
+          height="40"
+          width="40"
+          class="cursor-pointer mt-2"
+          alt=""
+        />
+        <p class="sidebar_txt">Events</p>
+      </a>
+    </div>
+    <div class="messages mt-2" routerLinkActive="active">
+      <a [routerLink]="['/main/message']">
+        <img
+          src="assets/messaging.png"
+          height="40"
+          width="40"
+          class="cursor-pointer mt-2"
+          alt=""
+        />
+        <p class="sidebar_txt">Messages</p></a
+      >
+    </div>
+    <div class="admin mt-2" routerLinkActive="active">
+      <a [routerLink]="['/main/admin']">
+        <img
+          src="assets/admin.png"
+          height="40"
+          width="40"
+          class="cursor-pointer mt-2"
+          alt=""
+        />
+
+        <p class="sidebar_txt">Admin</p>
+      </a>
+    </div>
+    <div class="admin mt-2" routerLinkActive="active">
+      <a [routerLink]="['/main/songs']">
+        <img
+          src="assets/admin.png"
+          height="40"
+          width="40"
+          class="cursor-pointer mt-2"
+          alt=""
+        />
+
+        <p class="sidebar_txt">Songs</p>
+      </a>
+    </div>
+  </div>
+  <div class="profile_footer">
+    <div class="profile" routerLinkActive="active">
+      <a [routerLink]="['/main/profile']">
+        <img
+          src="assets/profile.png"
+          class="cursor-pointer mt-2"
+          height="40"
+          width="40"
+        />
+
+        <p class="sidebar_txt">Profile</p>
+      </a>
+    </div>
+  </div>
+</div>

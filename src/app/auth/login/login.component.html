@@ -1,0 +1,56 @@
+<div class="login-content">
+  <div class="login-card" style="margin: 0 auto">
+    <form [formGroup]="loginForm">
+      <div class="card-style">
+        <div class="logo">
+          <img src="assets/color.png" alt="" />
+        </div>
+        <div>
+          <label>Username</label>
+          <input
+            type="email"
+            class="form-control input_box"
+            formControlName="email"
+            [ngClass]="{ 'is-invalid': submitted && f.email.errors }"
+            required
+          />
+
+          <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+            <div *ngIf="f.email.errors.required">Email is required</div>
+            <div *ngIf="f.email.errors.email">
+              Email must be a valid email address
+            </div>
+          </div>
+        </div>
+        <div class="mt-2">
+          <label>Password</label>
+
+          <input
+            type="password"
+            class="form-control input_box"
+            formControlName="password"
+            [ngClass]="{ 'is-invalid': submitted && f.password.errors }"
+            required
+          />
+
+          <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+            <div *ngIf="f.password.errors.minlength">
+              Password must be at least 8 characters
+            </div>
+          </div>
+        </div>
+
+        <button class="signin-btn mt-2" type="submit" (click)="onSubmit()">
+          Sign In
+        </button>
+        <div class="text-center mt-1"><span>Forgot?</span></div>
+        <hr />
+        <div class="row login-fotter">
+          <div class="col-md-6 text-center">New to AdventureSafe?</div>
+          <div class="col-md-6 text-center sign_up">Create New Account</div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

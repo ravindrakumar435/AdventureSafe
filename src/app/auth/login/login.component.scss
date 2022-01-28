@@ -1,0 +1,64 @@
+.login-card {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  margin-bottom: 10px; /* Added */
+  width: 360px;
+  border-radius: 10px;
+  padding: 45px 35px 20px;
+  background-color: #fff;
+  color: #517caf;
+}
+.login-content {
+  background-image: url("../../../assets/image.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #517caf;
+}
+
+.logo {
+  width: 210px;
+  height: 120px;
+  margin: 0 45px 35px;
+  object-fit: contain;
+}
+.input_box {
+  width: 280px;
+  height: 50px;
+  margin: 5px 0 0;
+  padding: 13px 15px 20px;
+  box-shadow: none;
+  outline: none;
+}
+
+.signin-btn {
+  width: 282px;
+  height: 64px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  padding: 6px 1px 8px;
+  background-color: #517caf;
+}
+
+.forgot-btn {
+  position: relative;
+  left: 75%;
+  top: -38px;
+  color: #517caf;
+}
+
+.login-fotter {
+  font-size: 12px;
+}
+
+.toast {
+  margin-top: 60px !important;
+}
+
+.toast-top-center {
+  top: 60px !important;
+}
+.sign_up {
+  cursor: pointer;
+}

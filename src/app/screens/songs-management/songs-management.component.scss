@@ -1,0 +1,48 @@
+.songs_body {
+  background-color: whitesmoke;
+  height: 87vh;
+}
+
+.csv_btn {
+  outline: none;
+  box-shadow: none;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn_upload {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 6px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.form-control {
+  box-shadow: none;
+  outline: none;
+}
+// .upload_btns {
+//   width: 100%;
+// }
+.submit_btn {
+  border: none;
+  float: right;
+  min-width: 100px;
+  background-color: #faaf41;
+  outline: none;
+  box-shadow: none;
+}

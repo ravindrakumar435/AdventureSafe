@@ -1,0 +1,114 @@
+.message-body {
+  background-color: #264f8f;
+  padding: 20px;
+  color: #eaeef1;
+  height: 100vh;
+}
+.msg_txt {
+  margin-top: 6px;
+  font-size: 12px;
+}
+.msg_profile {
+  margin: 0 auto;
+  justify-content: center;
+  border: solid 1px#4299dd;
+  padding: 12px 0px 12px;
+
+  line-height: 8px;
+}
+.user_txt {
+  color: #517caf;
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+.msg_btn_txt {
+  font-size: 10px;
+  border: 1px solid #4299dd;
+  border-radius: 10px;
+  padding: 4px;
+  width: 110px;
+  text-align: center;
+}
+
+.msg_btn_txtboth {
+  font-size: 10px;
+
+  background-color: #faaf41;
+  border-radius: 10px;
+  padding: 4px;
+  width: 50px;
+  text-align: center;
+}
+.msg_btn_txtind {
+  font-size: 10px;
+  background-color: #faaf41;
+  border-radius: 10px;
+  padding: 4px;
+  width: 90px;
+  text-align: center;
+}
+.msg_btn_txt_grp {
+  font-size: 10px;
+  border: 1px solid #4299dd;
+  border-radius: 10px;
+  padding: 4px;
+  width: 45px;
+  text-align: center;
+}
+.msg_btn_txt-area {
+  font-size: 10px;
+  border: 1px solid #4299dd;
+  border-radius: 10px;
+  padding: 4px;
+  width: 75px;
+  text-align: center;
+}
+.text_box {
+  width: 100%;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  border: 2px solid #faaf41;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #264f8f;
+  color: #eaeef1;
+}
+.text_box_csm {
+  border: 2px solid #4299dd;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.textArea_box {
+  width: 100%;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  border: 2px solid #4299dd;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #264f8f;
+  color: #eaeef1;
+}
+.upload_btn {
+  border: 1px solid #4299dd;
+  color: #eaeef1;
+  padding: 6px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 13px;
+}
+.sendmsg_btn {
+  color: #eaeef1;
+  background-color: #faaf41;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 13px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #eaeef1;
+  opacity: 1; /* Firefox */
+}

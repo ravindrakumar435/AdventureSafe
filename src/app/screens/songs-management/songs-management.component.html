@@ -1,0 +1,86 @@
+<div class="row" style="background-color: #264f8f; height: 100vh">
+  <div class="col-md-12 p-0 m-0">
+    <app-header></app-header>
+    <div class="container mt-5">
+      <div class="card card-custom example example-compact gutter-b">
+        <div class="card-header">
+          <div class="card-title col-md-4">
+            <h4 class="card-label">SONGS MANAGEMENT</h4>
+          </div>
+        </div>
+        <div class="card-body p-4">
+          <form [formGroup]="songsForm">
+            <div>
+              <div class="mb-2">
+                <label for="">Song Name:</label>
+                <input
+                  type="text"
+                  formControlName="songName"
+                  class="form-control"
+                  placeholder=" Enter Song Name"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="">Duration:</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Enter Duration"
+                  formControlName="duration"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="">Description:</label>
+                <textarea
+                  name=""
+                  class="form-control"
+                  placeholder=" Enter Description..."
+                  formControlName="description"
+                  id=""
+                  cols="15"
+                  rows="6"
+                ></textarea>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-12 d-flex">
+                  <div class="upload-btn-wrapper">
+                    <button class="btn_upload">Upload Song</button>
+                    <input
+                      type="file"
+                      accept="audio/*"
+                      (change)="fileSelected($event)"
+                    />
+                  </div>
+                  &nbsp;&nbsp; &nbsp;&nbsp;
+                  <div class="upload-btn-wrapper">
+                    <button class="btn_upload">Upload Thumbnail</button>
+                    <input
+                      type="file"
+                      accept="image/png, image/jpeg"
+                      (change)="uploadThambnail($event)"
+                    />
+                  </div>
+                  &nbsp;&nbsp; &nbsp;&nbsp;
+                  <div class="upload-btn-wrapper">
+                    <button class="btn_upload">Upload Banner</button>
+                    <input
+                      type="file"
+                      accept="image/png, image/jpeg"
+                      (change)="uploadBanner($event)"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-12 text-center mt-3 mb-2">
+                  <button class="btn btn-primary submit_btn" (click)="Submit()">
+                    SUBMIT
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

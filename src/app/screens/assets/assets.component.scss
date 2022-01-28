@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.message-body {
+  background-color: #264f8f;
+  padding: 20px;
+  color: #a8afb4;
+  height: 100vh;
+  color: #f7fbfd;
+}
+
+.msg_profile {
+  margin: 0 auto;
+  justify-content: center;
+  border: solid 1px #4299dd;
+  padding: 12px 0px 12px;
+  width: 100%;
+  line-height: 8px;
+}
+
+.msg_txt {
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.rounded-circle_profile {
+  border-radius: 50% !important;
+  border: 2px solid #28b46e;
+  background-color: #25326e;
+  padding: 8px;
+  width: 44px;
+  text-align: center;
+  position: relative;
+}
+
+.rounded-circle_profile .list_icon::after {
+  content: "•";
+  color: #28b46e;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  left: 32px;
+  top: -11px;
+}
+
+.rounded-circle_profile1 .list_icon::after {
+  content: "•";
+  color: #faaf41;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  left: 32px;
+  top: -11px;
+}
+
+.rounded-circle_profile1 {
+  border-radius: 50% !important;
+  border: 2px solid #faaf41;
+  background-color: #25326e;
+  padding: 8px;
+  width: 44px;
+  text-align: center;
+  position: relative;
+}
+
+.location_style {
+  font-size: 10px;
+  margin: -36px 57px;
+  list-style-type: none;
+}
+
+.location_style::before {
+  content: "•";
+  color: #42c3dd;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  margin-left: -8px;
+}
+
+.location_style1 {
+  font-size: 10px;
+  margin: -36px 57px;
+  list-style-type: none;
+}
+
+.location_style1::before {
+  content: "•";
+  color: #28b46e;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  margin-left: -8px;
+}
+
+.list_item_hover:hover {
+  background-color: #25326e;
+  padding: 12px 0px 50px 8px;
+  border-radius: 5px;
+}
+.list_item_hover:hover .fa-ellipsis-v {
+  margin-left: 30px;
+  color: #264f8f;
+  visibility: visible;
+}
+
+.list_item_hover {
+  padding: 12px 0px 50px 8px;
+  border-radius: 5px;
+}
+
+.fa-ellipsis-v {
+  margin-left: 30px;
+  color: #264f8f;
+  visibility: hidden;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.rounded-circle_profile3 {
+  border-radius: 50% !important;
+  border: 2px solid #4299dd;
+  background-color: #25326e;
+  padding: 8px;
+  width: 44px;
+  text-align: center;
+  position: relative;
+}
+
+.rounded-circle_profile3 .list_icon::after {
+  content: "•";
+  color: #4299dd;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  left: 32px;
+  top: -11px;
+}
+
+.location_style2 {
+  font-size: 10px;
+  margin: -36px 57px;
+  list-style-type: none;
+}
+
+.location_style2::before {
+  content: "•";
+  color: whitesmoke;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  position: absolute;
+  margin-left: -8px;
+}

@@ -1,0 +1,50 @@
+.profile-title {
+  color: #eaeef1;
+  font-size: 19px;
+  margin: 30px 0px 0px 18px;
+}
+.profile_data {
+  background-color: #264f8f;
+  height: 100vh;
+  overflow: hidden;
+  color: #eaeef1;
+  padding: 20px;
+}
+.edit_txt {
+  margin-top: 6px;
+  font-size: 12px;
+}
+.edit_profile {
+  margin: 0 auto;
+  justify-content: center;
+  border: solid 1px#4299dd;
+  padding: 6px 0px;
+
+  line-height: 8px;
+}
+.profile_icon {
+  font-size: 90px;
+  font-weight: bold;
+  background-color: #25326e;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a9cbe7;
+  padding: 20px 40px 25px 40px;
+}
+.rounded-circle {
+  border: solid 2px #4299dd;
+}
+
+.user_txt {
+  color: #517caf;
+  font-size: 12px;
+}
+.logout {
+  background-color: #faaf41;
+  border-radius: 25px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}

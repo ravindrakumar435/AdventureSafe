@@ -1,0 +1,31 @@
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <agm-marker
+    *ngFor="let marker of markers"
+    [latitude]="marker.position.lat"
+    [longitude]="marker.position.lng"
+    [label]="marker.label"
+  >
+  </agm-marker>
+</agm-map>
+<div class="map_buttons">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        &nbsp;&nbsp;
+        <div class="col-md-1 rounded-circle">
+          <p style="margin: -2px 0px 4px -4px">+</p>
+        </div>
+        &nbsp;&nbsp;
+        <div class="col-md-2 filter">Nautical Filter</div>
+        &nbsp;&nbsp;
+        <div class="col-md-2 filiter_pr">Filter Preset</div>
+        &nbsp;&nbsp;
+        <div class="col-md-2 filiter_pr">Filter Preset</div>
+        &nbsp;&nbsp;
+        <div class="col-md-2 filiter_pr">Filter Preset</div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    <div class="col-md-6"></div>
+  </div>
+</div>
